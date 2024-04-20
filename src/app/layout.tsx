@@ -35,7 +35,7 @@ const geistMonoVariable = localFont({
 
 // Metadata:
 export const metadata: Metadata = {
-  metadataBase: new URL("https://go.sainnhe.dev"),
+  metadataBase: new URL("https://aka.sainnhe.dev"),
   title: {
     default: "Slug - A beautifully open-source URL shortener",
     template: "%s - Slug",
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Slug",
     description: "An beautifully open-source URL shortener",
-    url: "https://go.sainnhe.dev/images/og_image.png",
+    url: "https://aka.sainnhe.dev/images/og_image.png",
     siteName: "Slug - An beautifully open-source URL shortener",
     locale: "en_US",
     type: "website",

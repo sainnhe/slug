@@ -65,7 +65,7 @@ const CopyQR = ({ linkInfo }: CopyQRProps) => {
             id="qr-code"
             size={128}
             style={{ height: "auto" }}
-            value={`https://go.sainnhe.dev/${linkInfo.slug}`}
+            value={`https://aka.sainnhe.dev/${linkInfo.slug}`}
             viewBox={`0 0 128 128`}
           />
         </div>

@@ -115,7 +115,7 @@ export function CreateLink(props: CreateLinkProps) {
       }
 
       toast.success("Link created successfully", {
-        description: `Url: https://go.sainnhe.dev/${values.slug}`,
+        description: `Url: https://aka.sainnhe.dev/${values.slug}`,
         duration: 10000,
         closeButton: true,
       });

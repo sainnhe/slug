@@ -76,7 +76,7 @@ const EditLink = (props: EditLinkProps) => {
 
       // If not any changes in the tags, return:
       toast.success("Link edited successfully.", {
-        description: `Url: https://go.sainnhe.dev/${values.slug}`,
+        description: `Url: https://aka.sainnhe.dev/${values.slug}`,
         duration: 10000,
         closeButton: true,
       });
