@@ -24,8 +24,8 @@ export const CreateLinkSchema = z.object({
     }),
   slug: z
     .string()
-    .min(4, {
-      message: "Short link is required and must be at least 4 characters long.",
+    .min(2, {
+      message: "Short link is required and must be at least 2 characters long.",
     })
     .regex(/^[a-zA-Z0-9_-]*$/, {
       message:
